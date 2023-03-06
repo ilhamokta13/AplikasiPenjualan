@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E53935"
+    android:orientation="vertical"
+    tools:context=".Tambahkatalog">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#3949AB"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="Nama Barang"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#5E35B1"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="Harga Barang"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/tambahkatalog"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:onClick="addBarang"
+        android:text="Tambahkan Barang" />
+</LinearLayout>

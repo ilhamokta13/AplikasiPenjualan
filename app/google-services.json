@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "834559729492",
+    "firebase_url": "https://proyekakhir-c8b4c-default-rtdb.firebaseio.com",
+    "project_id": "proyekakhir-c8b4c",
+    "storage_bucket": "proyekakhir-c8b4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834559729492:android:aa6ce1dc898f3b6830b2c1",
+        "android_client_info": {
+          "package_name": "com.example.proyekakhir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834559729492-0t7vm22b8ap64ltld9bn1d6tfotqqcl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4HUD_QDSf5-H_xL2Ut_8aobv8KKCEwno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834559729492-0t7vm22b8ap64ltld9bn1d6tfotqqcl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

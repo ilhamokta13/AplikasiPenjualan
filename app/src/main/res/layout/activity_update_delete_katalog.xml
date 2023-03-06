@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FB8C00"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteKatalog">
+
+    <EditText
+        android:id="@+id/editText_updateNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D81B60"
+        android:ems="10"
+        android:hint="Nama Barang"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_updateHargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D81B60"
+        android:ems="10"
+        android:hint="Harga Barang"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonUpdateKatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updatekatalog"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/buttonDeleteKatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deletekatalog"
+        android:text="Delete" />
+</LinearLayout>
